@@ -1,0 +1,57 @@
+/* CSS Document */
+
+#controlPanel
+{
+float:left;
+width:auto;
+height:auto;
+padding:8px 15px;
+color:red;
+border-radius:5px;
+margin:5px;
+background:#FFF;
+border:1px solid #ccc;
+position:relative;
+}
+.cp a:hover
+{
+	opacity:1.0;
+	text-decoration:none;
+}
+.cp a 
+{
+	opacity:0.4;
+	font-size:10px;
+	font-weight:bold;
+}
+.text
+{
+text-align:center;
+}
+.clear
+{
+clear:both;
+}
+
+
+/*sirs menu icon set*/
+.icon-16-department					{	background-image: url(../images/icon-16-department.png); }
+.icon-16-klinik						{	background-image: url(../images/icon-16-klinik.png); }
+.icon-16-jabatan					{	background-image: url(../images/icon-16-jabatan.png); }
+.icon-16-profesi					{	background-image: url(../images/icon-16-profesi.png); }
+.icon-16-staff						{	background-image: url(../images/icon-16-staff.png); }
+.icon-16-jadwal						{	background-image: url(../images/icon-16-jadwal.png); }
+.icon-16-regpasien					{	background-image: url(../images/icon-16-regpasien.png); }
+.icon-16-pasien						{	background-image: url(../images/icon-16-pasien.png); }
+.icon-16-informasi					{	background-image: url(../images/icon-16-informasi.png); }
+
+/*sirs toolbar icon set*/
+.icon-48-department					{	background-image: url(../images/icon-48-department.png); }
+.icon-48-klinik						{	background-image: url(../images/icon-48-klinik.png); }
+.icon-48-jabatan					{	background-image: url(../images/icon-48-jabatan.png); }
+.icon-48-profesi					{	background-image: url(../images/icon-48-profesi.png); }
+.icon-48-staff						{	background-image: url(../images/icon-48-staff.png); }
+.icon-48-jadwal						{	background-image: url(../images/icon-48-jadwal.png); }
+.icon-48-regpasien					{	background-image: url(../images/icon-48-regpasien.png); }
+.icon-48-pasien						{	background-image: url(../images/icon-48-pasien.png); }
+.icon-48-informasi					{	background-image: url(../images/icon-48-informasi.png); }

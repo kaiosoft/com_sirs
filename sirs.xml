@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.0">
+   <name>COM_SIRS</name>
+   <creationDate>Juli 2012</creationDate>
+   <modificationDate>Juni - Juli</modificationDate>
+   <author>Kaio Software</author>
+   <authorEmail>info@kaiogroup.com</authorEmail>
+   <authorUrl>http://www.kaiogroup.com</authorUrl>
+   <copyright>2012</copyright>
+   <version>1.2 Beta Version</version>
+   <description>COM_SIRS_DESCRIPTION</description>
+   
+   <installfile>install/install.php</installfile>
+   <uninstallfile>install/uninstall.php</uninstallfile>
+   
+   <files folder="site">
+		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>views</folder>
+		<folder>models</folder>
+		<filename>controller.php</filename>		
+		<filename>sirs.php</filename>
+        <filename>index.html</filename>
+    </files>
+    
+   <install>
+      <sql>
+         <file charset="utf8" driver="mysql">install/install.sql</file>
+         <file driver="mysql">install/install.sql</file>
+      </sql>
+   </install>
+   
+   <uninstall>
+      <sql>
+         <file charset="utf8" driver="mysql">install/uninstall.sql</file>
+         <file driver="mysql">install/uninstall.sql</file>
+      </sql>
+   </uninstall>   
+   
+   <languages folder="site">
+			<language tag="en-GB">language/en-GB/en-GB.com_sirs.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_sirs.sys.ini</language>
+	</languages>
+   
+   <administration>        
+		
+	<menu link="option=com_sirs" img="components/com_sirs/assets/images/icon-16-profesi.png">SIRS</menu>
+	    <submenu>
+		<menu link="option=com_sirs&amp;c=departement" img="components/com_sirs/assets/images/icon-16-department.png">Department</menu>
+		<menu link="option=com_sirs&amp;c=klinik" img="components/com_sirs/assets/images/icon-16-klinik.png">Klinik</menu>
+		<menu link="option=com_sirs&amp;c=jabatan" img="components/com_sirs/assets/images/icon-16-jabatan.png">Jabatan</menu>
+	    <menu link="option=com_sirs&amp;c=profesi" img="components/com_sirs/assets/images/icon-16-profesi.png">Profesi</menu>
+	    <menu link="option=com_sirs&amp;c=staff" img="components/com_sirs/assets/images/icon-16-staff.png">Staff</menu>
+	    <menu link="option=com_sirs&amp;c=jadwal" img="components/com_sirs/assets/images/icon-16-jadwal.png">Jadwal</menu>
+		<menu link="option=com_sirs&amp;c=reg" img="components/com_sirs/assets/images/icon-16-regpasien.png">Registrasi Pasien</menu>
+		<menu link="option=com_sirs&amp;c=pasien" img="components/com_sirs/assets/images/icon-16-pasien.png">Pasien</menu>
+	    <menu link="option=com_sirs&amp;c=informasi" img="components/com_sirs/assets/images/icon-16-informasi.png">Informasi</menu>
+	    </submenu>
+		
+      <files folder="admin">
+      	<folder>controllers</folder>
+      	<folder>assets</folder>
+      	<folder>install</folder>
+      	<folder>tables</folder>
+      	<folder>models</folder>	
+      	<folder>helpers</folder>	
+      	<folder>views</folder>
+        <filename>controller.php</filename>
+        <filename>sirs.php</filename>		
+        <filename>index.html</filename>
+      </files> 
+	  
+	  <languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_sirs.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_sirs.sys.ini</language>
+		</languages>
+	       
+   </administration>
+</install>
