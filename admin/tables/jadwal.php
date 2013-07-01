@@ -28,6 +28,7 @@ class TableJadwal extends JTable
 	var $sjam		= null;
 	var $fjam		= null;
 	var $klinik_id	= null;	
+	var $room = null;
 	var $keterangan = null;	
 
 	function __construct( &$db )
