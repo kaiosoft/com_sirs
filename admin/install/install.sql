@@ -55,6 +55,7 @@ CREATE TABLE `#__sirs_jadwal` (
   `sjam` varchar(6) NOT NULL,
   `fjam` varchar(6) NOT NULL,
   `klinik_id` int(11) NOT NULL,
+  `room` varchar(20) NOT NULL,
   `keterangan` varchar(200) NOT NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=31 ;
