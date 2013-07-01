@@ -121,6 +121,10 @@ Joomla.submitbutton = function(task)
       <td width="18%" align="right" class="key">Klinik * : </td>
       <td width="82%"><?php echo $lists['klinik']; ?></td>
     </tr>
+    	<tr>
+      <td width="18%" align="right" class="key"><?php echo JText::_('COM_SIRS_JADWAL_FIELD_ROOM'); ?>  : </td>
+      <td width="82%"><input type="text" name="room" id="room" value="<?php echo $this->data['jadwal'][0]->room; ?>"></td>
+    </tr>
 	<tr>
       <td width="18%" align="right" class="key">Keterangan : </td>
       <td width="82%"><textarea name="keterangan" cols="30" rows="3"></textarea></td>
